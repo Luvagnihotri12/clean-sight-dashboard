@@ -1,8 +1,7 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useWebcam } from "@/hooks/useWebcam";
-import { Camera, CameraOff, Play, Stop } from "lucide-react";
+import { Camera, CameraOff, Play, Square } from "lucide-react";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
@@ -129,7 +128,7 @@ export function WebcamMonitor({ onDetection }: WebcamMonitorProps) {
                   disabled={!isMonitoring && !isActive}
                   variant="outline"
                 >
-                  <Stop className="mr-2 h-4 w-4" />
+                  <Square className="mr-2 h-4 w-4" />
                   Stop
                 </Button>
               </TooltipTrigger>
