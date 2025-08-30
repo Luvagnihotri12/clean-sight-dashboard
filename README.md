@@ -1,57 +1,18 @@
-# Welcome to your Lovable project
+# 🧼 SanitTrack AI Dashboard
 
-## Project info
+An intelligent hospital sanitation detection system powered by AI. Built for real-time monitoring, anomaly detection, and hygiene compliance across medical facilities.
 
-**URL**: https://lovable.dev/projects/7be8baa9-962d-4432-8811-c075fdab9e3e
+---
 
-## How can I edit this code?
+## 🚀 Live Demo
 
-There are several ways of editing your application.
+🔗 [View the deployed dashboard](https://aisantizationdetection.netlify.app/)
 
+---
 
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-
-
-
+- **Frontend**: React + TypeScript
+- **Build Tool**: Vite
+- **UI Framework**: shadcn-ui + Tailwind CSS
+- **Hosting**: Netlify
